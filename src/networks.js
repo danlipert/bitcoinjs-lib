@@ -23,5 +23,27 @@ module.exports = {
     pubKeyHash: 0x6f,
     scriptHash: 0xc4,
     wif: 0xef
-  }
+  },
+  ravencointestnet: {
+    messagePrefix: '\x16Ravencoin Signed Message:\n',
+    bech32: 'tr',
+    bip32: {
+      public: 0x043587cf,
+      private: 0x04358394
+    },
+    pubKeyHash: 0x6f,
+    scriptHash: 0xc4,
+    wif: 0xef
+  },
+  ravencoinmainnet: {
+    messagePrefix: '\x16Ravencoin Signed Message:\n',
+    bech32: 'rc',
+    bip32: {
+      public: 0x0488b21e,
+      private: 0x0488ade4
+    },
+    pubKeyHash: 0x3c,
+    scriptHash: 0x7a,
+    wif: 0x80
+  },
 }
